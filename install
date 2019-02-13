@@ -2,3 +2,15 @@
 https://www.mongodb.com/download-center/community
 
 tar -zxvf mongodb-linux-x86_.tgz  
+
+
+启动服务
+
+./bin/mongod --dbpath ~/~ --logpath ~/~ --fork
+
+./bin/mongod -f ~/~.conf
+
+mongo shell控制台
+
+./bin/mongo (本地)
+./bin/mongo mongodb://user:pwd@host:port/database
