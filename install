@@ -1,1 +1,4 @@
 
+https://www.mongodb.com/download-center/community
+
+tar -zxvf mongodb-linux-x86_64-3.0.6.tgz  
